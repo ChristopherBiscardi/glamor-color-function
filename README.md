@@ -27,6 +27,14 @@ into
 }
 ```
 
+# Usage
+
+```javascript
+import color from 'glamor-color-function';
+import { plugins } from 'glamor';
+plugins.add(color);
+```
+
 ## ECMAScript
 
 You will need polyfills for the following features (which are provided
