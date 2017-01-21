@@ -1,11 +1,16 @@
 {
   "name": "glamor-color-function",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "color() function support for glamor",
   "main": "index.js",
   "jsnext:main": "index.es.js",
   "author": "Chris Biscardi <chris@christopherbiscardi.com>",
   "license": "MIT",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/ChristopherBiscardi/glamor-color-function.git"
+  },
+  "bugs": "https://github.com/ChristopherBiscardi/glamor-color-function/issues",
   "scripts": {
     "build": "babel index.es.js --out-file index.js",
     "test": "jest"
